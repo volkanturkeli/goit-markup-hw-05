@@ -396,9 +396,137 @@
               </ul>
             </div>
           </li>
+          <li>
+            <div class="form-div">
+              <form name="foot-form" method="post">
+                <label id="form-label" for="form-input"> Subscribe </label>
+                <div class="form-group">
+                  <input
+                    id="form-input"
+                    type="email"
+                    name="mail"
+                    placeholder="E-mail"
+                  />
+                  <button id="foot-button" type="submit">
+                    Subscribe
+                    <svg
+                      id="icon-telegram"
+                      viewBox="0 0 32 32"
+                      width="24px"
+                      height="20px"
+                    >
+                      <use href="./images/icons.svg#icon-telegram"></use>
+                    </svg>
+                  </button>
+                </div>
+              </form>
+            </div>
+          </li>
         </ul>
       </div>
     </footer>
     <!-- FOOTER END -->
+
+
+
+    <div class="generally">
+      <div class="modal">
+        <div class="close-icon">
+          <svg
+            class="open-close"
+            width="24px"
+            height="24px"
+            viewBox="0 0 32 32"
+          >
+            <use href="./images/icons.svg#icon-close"></use>
+          </svg>
+        </div>
+        <h3 class="modal-title">
+          Leave your contacts and we will call you back
+        </h3>
+        <form id="modal-form">
+          <label for="name" class="items"
+            >Name
+            <div class="svg-input">
+              <input type="text" id="name" name="name" />
+              <svg
+                class="input-icon"
+                width="12px"
+                height="12px"
+                viewBox="0 0 32 32"
+              >
+                <use href="./images/icons.svg#icon-person"></use>
+              </svg>
+            </div>
+          </label>
+          <label for="tel" class="items"
+            >Phone
+            <div class="svg-input">
+              <input type="tel" id="tel" name="tel" />
+              <svg
+                class="input-icon"
+                width="13px"
+                height="13px"
+                viewBox="0 0 32 32"
+              >
+                <use href="./images/icons.svg#icon-phone"></use>
+              </svg>
+            </div>
+          </label>
+          <label for="email" class="items"
+            >Email
+            <div class="svg-input">
+              <input type="email" id="email" name="email" autocomplete="off" />
+              <svg
+                class="input-icon"
+                width="15px"
+                height="12px"
+                viewBox="0 0 43 32"
+              >
+                <use href="./images/icons.svg#icon-mail"></use>
+              </svg>
+            </div>
+          </label>
+
+          <div class="comment">
+            <label for="textarea" class="items">Comments</label>
+            <textarea
+              id="textarea"
+              name="textarea"
+              placeholder="Text input"
+            ></textarea>
+          </div>
+          <div class="check-div">
+            <label id="checkbox" for="checkbox">
+              <input
+                type="checkbox"
+                value="yes"
+                name="checkbox"
+                id="checkbox"
+              />
+              I accept the terms and condiditions of the
+              <span class="privacy">
+                <a href="#" target="_blank">Privacy Policy</a></span
+              >
+            </label>
+          </div>
+          <div class="send-button">
+            <button type="submit" id="modal-button">Send</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
   </body>
 </html>
